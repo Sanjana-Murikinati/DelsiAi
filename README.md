@@ -2,7 +2,12 @@ Dilse - AI Therapy Application
 It's not just an AI that you can share your thoughts, it's your 3 AM friend that helps you sort out your way over everyone
 
 Dilse is a compassionate AI therapist web application designed to provide accessible and private mental wellness support. Built on this platform, it offers a seamless user experience with features such as guided therapy, session tracking, and personalized insights.
+Attached  Images:
+![WhatsApp Image 2025-09-21 at 00 52 30_1f1c181e](https://github.com/user-attachments/assets/95943e64-e45d-402b-83af-fa8bd324bdb8)
 
+![WhatsApp Image 2025-09-21 at 00 52 30_b1a19f28](https://github.com/user-attachments/assets/caaeb904-108a-4540-aa5d-f6db03e08fc0)
+
+![Image](https://github.com/user-attachments/assets/4f42a725-ec07-4353-a230-6ff501faf29a)
 ✨ Core Features
 AI-Powered Chat: Engage in conversations with an empathetic AI therapist in either text or voice mode.
 Dual Therapy Modes: Choose between "Classic" (free-form chat) and "Guided" (structured therapy) sessions.
