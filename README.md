@@ -79,7 +79,7 @@ The application runs live on the cloud platform. Any changes you make are automa
 
 ### Running Locally (Frontend Only)
 
-> Note: Features relying on the base44 backend (authentication, session saving, history) will **not** work. You would need to implement your own backend to fully restore functionality.
+> Note: Features relying on the  backend (authentication, session saving, history) will **not** work. You would need to implement your own backend to fully restore functionality.
 
 1. **Download the Project**: Export the project from base44 and unzip it.
 2. **Install Dependencies**:
