@@ -1,0 +1,82 @@
+{
+  "name": "Session",
+  "type": "object",
+  "properties": {
+    "session_type": {
+      "type": "string",
+      "enum": [
+        "classic",
+        "guided"
+      ],
+      "description": "Type of therapy session"
+    },
+    "mode": {
+      "type": "string",
+      "enum": [
+        "text",
+        "voice"
+      ],
+      "description": "Communication mode used"
+    },
+    "duration_minutes": {
+      "type": "number",
+      "description": "Session duration in minutes"
+    },
+    "mood_before": {
+      "type": "string",
+      "enum": [
+        "very_sad",
+        "sad",
+        "neutral",
+        "happy",
+        "very_happy"
+      ],
+      "description": "User's mood before session"
+    },
+    "mood_after": {
+      "type": "string",
+      "enum": [
+        "very_sad",
+        "sad",
+        "neutral",
+        "happy",
+        "very_happy"
+      ],
+      "description": "User's mood after session"
+    },
+    "summary": {
+      "type": "string",
+      "description": "AI-generated session summary"
+    },
+    "key_topics": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Main topics discussed"
+    },
+    "recommended_activities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "activity": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          }
+        }
+      },
+      "description": "Suggested activities for mood improvement"
+    },
+    "transcript": {
+      "type": "string",
+      "description": "Session conversation transcript"
+    }
+  },
+  "required": [
+    "session_type",
+    "mode"
+  ]
+}
