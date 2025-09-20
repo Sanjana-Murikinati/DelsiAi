@@ -1,29 +1,38 @@
-Dilse - AI Therapy Application
-It's not just an AI that you can share your thoughts, it's your 3 AM friend that helps you sort out your way over everyone
 
-Dilse is a compassionate AI therapist web application designed to provide accessible and private mental wellness support. Built on this platform, it offers a seamless user experience with features such as guided therapy, session tracking, and personalized insights.
-Attached  Images:
-![WhatsApp Image 2025-09-21 at 00 52 30_1f1c181e](https://github.com/user-attachments/assets/95943e64-e45d-402b-83af-fa8bd324bdb8)
 
-![WhatsApp Image 2025-09-21 at 00 52 30_b1a19f28](https://github.com/user-attachments/assets/caaeb904-108a-4540-aa5d-f6db03e08fc0)
+# Dilse - AI Therapy Application
 
-![Image](https://github.com/user-attachments/assets/4f42a725-ec07-4353-a230-6ff501faf29a)
-✨ Core Features
-AI-Powered Chat: Engage in conversations with an empathetic AI therapist in either text or voice mode.
-Dual Therapy Modes: Choose between "Classic" (free-form chat) and "Guided" (structured therapy) sessions.
-Progressive User Onboarding: A step-by-step sign-up process to personalize the user's experience.
-Session Reports & History: After each session, receive a summary with mood analysis, key topics, and recommended activities. Review all past sessions in a dedicated log of history.
-Personal Insights: A dashboard that visualizes mood trends, activity, and common discussion topics over time.
-Light & Dark Theme Support: Users can switch between themes for their visual comfort.
-🚀 Tech Stack
-Frontend: React.js
-Styling: Tailwind CSS
-UI Components: shadcn/ui
-Icons: Lucide React
-Platform: Built and deployed on the cloud platform.
-📁 Project Structure
-The project is organized into logical directories based on its function within the base44 ecosystem.
+**Dilse** is more than just an AI chatbot — it’s your compassionate 3 AM friend that helps you navigate your thoughts, emotions, and mental wellness. This web application provides private, accessible, and empathetic therapy support through AI-powered interactions.
 
+---
+
+## 🌟 Core Features
+
+* **AI-Powered Chat**: Converse with an empathetic AI therapist via text or voice.
+* **Dual Therapy Modes**:
+
+  * **Classic**: Free-form chat to share thoughts naturally.
+  * **Guided**: Structured therapy sessions for focused mental wellness.
+* **Progressive User Onboarding**: Step-by-step sign-up process to tailor the user experience.
+* **Session Reports & History**: Receive session summaries with mood analysis, key discussion topics, and recommended activities. Review all past sessions in a dedicated history log.
+* **Personal Insights**: Dashboard visualizing mood trends, common discussion topics, and activity over time.
+* **Light & Dark Theme Support**: Switch between themes for visual comfort.
+
+---
+
+## 🚀 Tech Stack
+
+* **Frontend**: React.js
+* **Styling**: Tailwind CSS
+* **UI Components**: shadcn/ui
+* **Icons**: Lucide React
+* **Platform**: Hosted and deployed on the cloud
+
+---
+
+## 📁 Project Structure
+
+```
 /
 ├── entities/
 │   ├── User.json
@@ -40,33 +49,60 @@ The project is organized into logical directories based on its function within t
 │   └── Insights.js
 │
 ├── components/
-│   └── (Directory for reusable React components)
+│   └── (Reusable React components)
 │
 └── Layout.js
-File Explanations
-Path	Description
-entities/	Contains .json files that define the data schemas for the application's database. This is where the structure of User and Session data is specified.
-pages/	Contains the main React components for each page of the application (e.g., the Home page, Dashboard, Chat interface).
-components/	Intended for smaller, reusable React components that can be imported and used across different pages to avoid code repetition.
-Layout.js: A special React component that acts as a wrapper for all pages. It contains shared UI elements like the header, navigation bar, and handles the overall page layout.
+```
 
+**Directory Explanations:**
 
-This project is designed to run directly on the platform, which handles the entire backend, database, and deployment pipeline.
+* **entities/**: Defines the data schemas for the application (User and Session).
+* **pages/**: Main React components for each page (Home, Dashboard, Chat, etc.).
+* **components/**: Reusable React components to avoid code repetition.
+* **Layout.js**: Wrapper component containing shared UI elements like headers and navigation.
 
-How to Run: The application is always live. Any changes I make are automatically built and reflected in the preview window. There are no commands for you to run.
-Running Locally (After Exporting the Code)
-You can export the frontend code from the base44 platform to run it on your local machine.
+---
 
-❗️ Important Note: The exported code is a frontend-only React application. Features that rely on the base44 backend (like user authentication, saving sessions, or fetching history) will not work out-of-the-box. To make them work, you would need to build your own backend API and modify the frontend code to call your API endpoints instead of the base44 SDK functions.
+## 🖼️ Screenshots
 
-If you wish to run the frontend for UI development purposes, follow these steps:
+![Screenshot 1](https://github.com/user-attachments/assets/95943e64-e45d-402b-83af-fa8bd324bdb8)
+![Screenshot 2](https://github.com/user-attachments/assets/caaeb904-108a-4540-aa5d-f6db03e08fc0)
+![Screenshot 3](https://github.com/user-attachments/assets/4f42a725-ec07-4353-a230-6ff501faf29a)
 
-Download the Project: Export and download the project source code as a ZIP file and unzip it.
+---
 
-Install Dependencies: Open a terminal in the project's root directory and run:
+## ⚡ How to Run
 
+### Online
+
+The application runs live on the cloud platform. Any changes you make are automatically reflected — no commands needed.
+
+### Running Locally (Frontend Only)
+
+> Note: Features relying on the base44 backend (authentication, session saving, history) will **not** work. You would need to implement your own backend to fully restore functionality.
+
+1. **Download the Project**: Export the project from base44 and unzip it.
+2. **Install Dependencies**:
+
+```bash
 npm install
-Run the Development Server: Once the installation is complete, start the local server:
+```
 
+3. **Run Development Server**:
+
+```bash
 npm start
-This will open the application in your browser, usually at http://localhost:3000.
+```
+
+This will launch the app in your browser (usually at `http://localhost:3000`).
+
+---
+
+## 💡 Notes
+
+* Dilse is built to provide **emotional support** and is **not a substitute for professional therapy**.
+* The exported frontend code can be customized for UI/UX purposes, but backend integration is needed for full functionality.
+
+---
+
+
